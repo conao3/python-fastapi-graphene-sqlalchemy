@@ -15,6 +15,8 @@ class Department(Base):
     department_name = Column(String(14), unique=True)
     location = Column(String(13))
 
+    employees = relationship('Employee')
+
 
 class Employee(Base):
     __tablename__ = 'employee'
