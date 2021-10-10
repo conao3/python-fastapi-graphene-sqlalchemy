@@ -11,6 +11,7 @@ SQLAlchemy = {extras = ["postgresql_psycopg2binary"], version = "^1.4.25"}
 graphene = "^2.1.9"
 graphene-sqlalchemy = "^2.3.0"
 fastapi = "^0.70.0"
+python-dotenv = "^0.19.1"
 
 [tool.poetry.dev-dependencies]
 uvicorn = "^0.15.0"

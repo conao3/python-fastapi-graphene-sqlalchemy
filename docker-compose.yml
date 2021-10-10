@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  db:
+    build:
+      context: docker/postgres
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USERNAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    ports:
+      - ${DB_PORT}:5432
