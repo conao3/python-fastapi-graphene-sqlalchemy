@@ -22,7 +22,7 @@ The application exposes both REST and GraphQL endpoints, with built-in support f
 
 ## Requirements
 
-- Python 3.8 or higher
+- Python 3.10 or higher
 - PostgreSQL database
 - Poetry (for dependency management)
 
