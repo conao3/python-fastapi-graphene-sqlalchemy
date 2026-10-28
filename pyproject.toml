@@ -6,16 +6,16 @@ authors = ["Naoya Yamashita <conao3@gmail.com>"]
 license = "Apache-2.0"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-SQLAlchemy = {extras = ["postgresql_psycopg2binary"], version = "^1.4.25"}
+python = "^3.15"
+SQLAlchemy = {extras = ["postgresql_psycopg2binary"], version = "^1.4.54"}
 graphene = "^2.1.9"
 graphene-sqlalchemy = "^2.3.0"
 fastapi = "^0.162.0"
-python-dotenv = "^1.2.2"
-pydantic-settings = "2.14.2"
+python-dotenv = "^1.2.4"
+pydantic-settings = "2.16.2"
 
 [tool.poetry.dev-dependencies]
-uvicorn = "^0.15.0"
+uvicorn = "^0.54.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
